@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for a Loan | Thobela Pawnshop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">THOBELA PAWNSHOP</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="vehicles.html">Vehicles for Sale</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="contact.html" class="btn-nav">Get a Loan</a>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <h1>Get in Touch</h1>
+        <p>Apply for a loan or visit us in Tlokweng.</p>
+    </div>
+
+    <section class="section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Visit Our Branch</h2>
+                <p><strong>Address:</strong><br>Along Tlokweng Zeerust Road,<br>Next to the Roman Catholic Church.</p>
+                <p><strong>Hours:</strong><br>Mon - Fri: 08:00 - 17:00<br>Sat: 09:00 - 14:00<br>Sun: Closed</p>
+                <p><strong>Phone:</strong><br>+267 7X XXX XXX</p>
+            </div>
+
+            <div class="contact-form">
+                <h2 style="font-family:var(--font-heading); margin-bottom:20px;">Request a Loan</h2>
+                <form onsubmit="requestLoan(event)">
+                    <input type="text" id="name" placeholder="Full Name" required>
+                    <input type="text" id="item" placeholder="Item to Pawn (e.g., Toyota Wish, Gold Chain)" required>
+                    <input type="number" id="amount" placeholder="Amount Needed (P)" required>
+                    <button type="submit" class="btn-primary" style="width:100%; border:none; cursor:pointer;">Submit Request via WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>THOBELA PAWNSHOP</h2>
+        <p>Trusted financial solutions since [Year].</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
